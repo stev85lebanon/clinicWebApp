@@ -19,7 +19,7 @@ export default function AdminDashboard() {
     useEffect(() => {
         const fetchStats = async () => {
             const token = localStorage.getItem('token');
-            console.log("⏱ Fetching stats...");
+            console.log("⏱ Fetching stats in admindashboard...");
 
             try {
                 const res = await fetch('https://clinikapp.onrender.com/admin/stats', {
